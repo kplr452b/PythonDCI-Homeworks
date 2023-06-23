@@ -1,0 +1,33 @@
+
+
+h1 {
+    align-self: center;
+    text-transform: uppercase;
+    color: rgba(155,149, 245, 96);
+    margin: 10px;
+}
+
+foto-container{
+    /* Mobile first */
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: center
+    
+    ;
+  }
+
+  .image-item {
+ 
+    align-content: center;
+  }
+  
+  .image-item img {
+ 
+    width: 500px;
+    border-radius: 5px;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  
